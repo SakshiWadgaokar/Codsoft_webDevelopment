@@ -1,181 +1,29 @@
+<!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Food Sharing App
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
- </head>
- <body class="font-roboto bg-gray-100">
-  <header class="bg-green-600 text-white p-4">
-   <div class="container mx-auto flex justify-between items-center">
-    <h1 class="text-2xl font-bold">
-     Food Sharing App
-    </h1>
-    <nav>
-     <ul class="flex space-x-4">
-      <li>
-       <a class="hover:underline" href="#">
-        Home
-       </a>
-      </li>
-      <li>
-       <a class="hover:underline" href="#">
-        List Food
-       </a>
-      </li>
-      <li>
-       <a class="hover:underline" href="#">
-        Contact
-       </a>
-      </li>
-     </ul>
-    </nav>
-   </div>
-  </header>
-  <main class="container mx-auto p-4">
-   <section class="mb-8">
-    <h2 class="text-xl font-bold mb-4">
-     Available Food
-    </h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-     <div class="bg-white p-4 rounded shadow">
-      <img alt="A large tray of leftover pasta with tomato sauce" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/5yQl8h6drd5WAl9a86KybHulFeDVvUKLKjIiKODeQYREXTBUA.jpg" width="300"/>
-      <h3 class="text-lg font-bold">
-       Pasta
-      </h3>
-      <p class="text-gray-700">
-       Quantity: 10 servings
-      </p>
-      <p class="text-gray-700">
-       Location: Hotel Sunshine, Downtown
-      </p>
-      <button class="mt-4 bg-green-600 text-white py-2 px-4 rounded">
-       Contact
-      </button>
-     </div>
-     <div class="bg-white p-4 rounded shadow">
-      <img alt="A large bowl of leftover salad with various vegetables" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/heD2fGSD8Ul1ck6If3FsS1hV3zeFtJIQveGSTDPo4Tw14aKgC.jpg" width="300"/>
-      <h3 class="text-lg font-bold">
-       Salad
-      </h3>
-      <p class="text-gray-700">
-       Quantity: 5 servings
-      </p>
-      <p class="text-gray-700">
-       Location: Green Leaf Restaurant, Uptown
-      </p>
-      <button class="mt-4 bg-green-600 text-white py-2 px-4 rounded">
-       Contact
-      </button>
-     </div>
-     <div class="bg-white p-4 rounded shadow">
-      <img alt="A large tray of leftover grilled chicken pieces" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/LrXKGUq5flWySSEKfYxOAn5OBsDS68fpbpKCODBEdetybNFQB.jpg" width="300"/>
-      <h3 class="text-lg font-bold">
-       Grilled Chicken
-      </h3>
-      <p class="text-gray-700">
-       Quantity: 15 servings
-      </p>
-      <p class="text-gray-700">
-       Location: BBQ Nation, Midtown
-      </p>
-      <button class="mt-4 bg-green-600 text-white py-2 px-4 rounded">
-       Contact
-      </button>
-     </div>
-     <div class="bg-white p-4 rounded shadow">
-      <img alt="A large tray of leftover rice with vegetables" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/OCIsv7dibI4fNa1CfsG7uTiOC4p0jYhprchyWOg4m0IetmCoA.jpg" width="300"/>
-      <h3 class="text-lg font-bold">
-       Vegetable Rice
-      </h3>
-      <p class="text-gray-700">
-       Quantity: 20 servings
-      </p>
-      <p class="text-gray-700">
-       Location: Spice Villa, Eastside
-      </p>
-      <button class="mt-4 bg-green-600 text-white py-2 px-4 rounded">
-       Contact
-      </button>
-     </div>
-     <div class="bg-white p-4 rounded shadow">
-      <img alt="A large tray of leftover sushi rolls" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/uySFUeXbi4U6Z6ffHfXVXaNp1AAXtWvOSissTnhae6ftw1UAF.jpg" width="300"/>
-      <h3 class="text-lg font-bold">
-       Sushi
-      </h3>
-      <p class="text-gray-700">
-       Quantity: 25 servings
-      </p>
-      <p class="text-gray-700">
-       Location: Sushi World, Westside
-      </p>
-      <button class="mt-4 bg-green-600 text-white py-2 px-4 rounded">
-       Contact
-      </button>
-     </div>
-     <div class="bg-white p-4 rounded shadow">
-      <img alt="A large tray of leftover pizza slices" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/EfInWLtwfrv5I01fVA1iZpCbgMmTJufZSCdHFjCcECUBcNFQB.jpg" width="300"/>
-      <h3 class="text-lg font-bold">
-       Pizza
-      </h3>
-      <p class="text-gray-700">
-       Quantity: 8 servings
-      </p>
-      <p class="text-gray-700">
-       Location: Pizza Palace, Downtown
-      </p>
-      <button class="mt-4 bg-green-600 text-white py-2 px-4 rounded">
-       Contact
-      </button>
-     </div>
-    </div>
-   </section>
-   <section>
-    <h2 class="text-xl font-bold mb-4">
-     List Your Food
-    </h2>
-    <form class="bg-white p-4 rounded shadow">
-     <div class="mb-4">
-      <label class="block text-gray-700" for="food-name">
-       Food Name
-      </label>
-      <input class="w-full p-2 border border-gray-300 rounded" id="food-name" placeholder="Enter food name" type="text"/>
-     </div>
-     <div class="mb-4">
-      <label class="block text-gray-700" for="quantity">
-       Quantity
-      </label>
-      <input class="w-full p-2 border border-gray-300 rounded" id="quantity" placeholder="Enter quantity" type="number"/>
-     </div>
-     <div class="mb-4">
-      <label class="block text-gray-700" for="location">
-       Location
-      </label>
-      <input class="w-full p-2 border border-gray-300 rounded" id="location" placeholder="Enter location" type="text"/>
-     </div>
-     <div class="mb-4">
-      <label class="block text-gray-700" for="contact">
-       Contact Information
-      </label>
-      <input class="w-full p-2 border border-gray-300 rounded" id="contact" placeholder="Enter contact information" type="text"/>
-     </div>
-     <button class="bg-green-600 text-white py-2 px-4 rounded" type="submit">
-      Submit
-     </button>
-    </form>
-   </section>
-  </main>
-  <footer class="bg-gray-800 text-white p-4 mt-8">
-   <div class="container mx-auto text-center">
-    <p>
-     © 2023 Food Sharing App. All rights reserved.
-    </p>
-   </div>
-  </footer>
- </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Landing Page</h1>
+        <p>This is a simple landing page created during my CodSoft internship.</p>
+        <a href="#features" class="btn">Learn More</a>
+    </header>
+
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Responsive Design</li>
+            <li>Modern Layout</li>
+            <li>User-friendly Interface</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Landing Page. All rights reserved.</p>
+    </footer>
+</body>
 </html>
